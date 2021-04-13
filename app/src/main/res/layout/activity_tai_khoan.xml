@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaiKhoanActivity"
+    android:orientation="vertical"
+    android:background="@color/maunen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/blue">
+
+        <ImageButton
+            android:id="@+id/img_back_ds"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/back_1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Thông tin tài khoản"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/add_thuoc"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@color/blue"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:background="@color/maunen">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+<!--                Tài khoản đăng nhập-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Tài khoản đăng nhập"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center|left"/>
+
+                <TextView
+                    android:id="@+id/thongtin_dangnhap"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="mauquy123@gmail.com"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/mauchu"
+                    android:gravity="center|left"
+                    android:background="@drawable/radius_editext"/>
+
+<!--                Họ tên hiển thị-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Tên hiển thị"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center|left"/>
+
+                <EditText
+                    android:id="@+id/thongtin_tenhienthi"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:hint="Nhập tên hiển thị"
+                    android:textColorHint="@color/mauchu"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/mauchu"
+                    android:gravity="center|left"
+                    android:background="@drawable/radius_editext"/>
+
+<!--                Địa chỉ gmail-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Email"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center|left"/>
+
+                <EditText
+                    android:id="@+id/thongtin_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:hint="Nhập địa chỉ Email"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="@color/mauchu"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/mauchu"
+                    android:gravity="center|left"
+                    android:background="@drawable/radius_editext"/>
+
+<!--                Địa chỉ gmail-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Địa chỉ liên lạc"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center|left"/>
+
+                <EditText
+                    android:id="@+id/thongtin_diachi"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:hint="Nhập địa chỉ liên lạc"
+                    android:textColorHint="@color/mauchu"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/mauchu"
+                    android:gravity="center|left"
+                    android:background="@drawable/radius_editext"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+<!--                        Ngày sinh-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Ngày sinh"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center|left"/>
+
+                        <TextView
+                            android:id="@+id/thongtin_ngaysinh"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:hint="MM/DD/YYYY"
+                            android:textColorHint="@color/mauchu"
+                            android:inputType="date"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="25dp"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/mauchu"
+                            android:gravity="center|left"
+                            android:background="@drawable/radius_editext"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+<!--                        Giới tính-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Giới tính"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center|left"/>
+
+                        <TextView
+                            android:id="@+id/thongtin_gioitinh"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:hint="Nam"
+                            android:textColorHint="@color/mauchu"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="30dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/mauchu"
+                            android:gravity="center"
+                            android:background="@drawable/radius_editext"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="bottom">
+
+                    <!--Xác nhận thông tin-->
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="Xác nhận"
+                        android:textAllCaps="false"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/radius_button_blue"
+                        android:gravity="center"/>
+
+                    <!--Thiết lập mật khẩu-->
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="Cài đặt mật khẩu"
+                        android:textAllCaps="false"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/radius_button_blue"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+    
+</LinearLayout>

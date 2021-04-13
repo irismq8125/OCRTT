@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FCFDFD</color>
+    <color name="blue">#1566e0</color>
+    <color name="black">#000000</color>
+    <color name="mauchu">#2196F3</color>
+    <color name="maunen">#ECEBEB</color>
+    <color name="red">#F60000</color>
+    <color name="datroi">#438AF4</color>
+    <color name="background_login">#5C9FF5</color>
+    <color name="text_color">#5C9FF5</color>
+</resources>

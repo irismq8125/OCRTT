@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/mau_tt">
+
+    <LinearLayout
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tracuu_danhsach_tuongtac_stt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tracuu_danhsach_tuongtac_mahc1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="HT-101"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/tracuu_danhsach_tuongtac_mahc2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="HT-101"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Muc Do"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Noi Dung"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tracuu_danhsach_tuongtac_tenhc1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="HT-101"
+            android:textSize="16sp"
+            android:gravity="center|left"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/tracuu_danhsach_tuongtac_tenhc2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="HT-101"
+            android:textSize="16sp"
+            android:gravity="center|left"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/tracuu_danhsach_tuongtac_mucdo"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="HT-101"
+            android:textSize="16sp"
+            android:gravity="center|left"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/tracuu_danhsach_tuongtac_noidung"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="HT-101"
+            android:textSize="16sp"
+            android:gravity="center|left"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/datroi"/>
+
+    </LinearLayout>
+
+</LinearLayout>

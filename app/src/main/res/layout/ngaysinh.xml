@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/blue">
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/back"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Thiết lập ngày sinh"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/add_thuoc"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@color/blue"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+
+    <DatePicker
+        android:id="@+id/ngaysinh"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:maxDate="31"
+        android:minDate="1"
+        android:calendarTextColor="@color/mauchu"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/ngaysinh_xacnhan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:text="Xác nhận"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:background="@drawable/radius_button_blue"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/ngaysinh_huybo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Hủy bỏ"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:background="@drawable/radius_button_blue"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

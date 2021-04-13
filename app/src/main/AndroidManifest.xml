@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ocrtt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".welcome.WelcomeActivity"></activity>
+        <activity android:name=".splash.NextSplashActivity" />
+        <activity android:name=".ChiTietTraCuuActivity" />
+        <activity android:name=".FullImageActivity" />
+        <activity android:name=".AlarmActivity" />
+        <activity android:name=".ChiTietNhacNhoActivity" />
+        <activity android:name=".ChiTietToaThuocActivity" />
+        <activity android:name=".forgetpassword.MatKhauActivity" />
+        <activity android:name=".TaiKhoanActivity" />
+        <activity android:name=".XacThucActivity" />
+        <activity android:name=".QuenMatKhauActivity" />
+        <activity android:name=".signup.DangKyActivity" />
+        <activity android:name=".login.DangNhapActivity" />
+        <activity android:name=".CaptureActivity" />
+        <activity android:name=".setting.CaiDatActivity" />
+        <activity android:name=".TraCuuActivity" />
+        <activity android:name=".NhacNhoActivity" />
+        <activity android:name=".DanhSachActivity" />
+        <activity android:name=".splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <receiver android:name=".AlarmSang" />
+        <receiver android:name=".AlarmTrua" />
+        <receiver android:name=".AlarmChieu" />
+        <receiver android:name=".AlarmToi" />
+    </application>
+
+</manifest>

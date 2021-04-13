@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OCRTT</string>
+    <string name="text_login">Đăng nhập</string>
+    <string name="text_sign_up">Đăng ký</string>
+</resources>
